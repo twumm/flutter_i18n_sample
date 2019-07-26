@@ -4,5 +4,12 @@
   "sub": {
     "what": "we have"
   },
-  "kum": "kumi"
+  "kum": "kumi",
+  "benchmarkSummary": {
+    "Benchmarking Summary": "Benchmarking\nSummary",
+    "Year": "Year",
+    "No connection": "No connection",
+    "Error": "Error",
+    "color": "color"
+  }
 }

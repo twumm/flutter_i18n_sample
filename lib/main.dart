@@ -75,6 +75,7 @@ class _HomePageState extends State<HomePage> {
               ),
               Text(allTranslations.text('sub', 'what')),
               Text(allTranslations.text('kum')),
+              Text(allTranslations.text('benchmarkSummary', 'Benchmarking Summary')),
             ],
           )),
     );

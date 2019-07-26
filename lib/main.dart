@@ -73,7 +73,8 @@ class _HomePageState extends State<HomePage> {
                   setState(() {});
                 },
               ),
-              Text(allTranslations.text('main_body')),
+              Text(allTranslations.text('sub', 'what')),
+              Text(allTranslations.text('kum')),
             ],
           )),
     );

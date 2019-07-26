@@ -19,11 +19,17 @@ class GlobalTranslations {
       _supportedLanguages.map<Locale>((lang) => new Locale(lang, ''));
 
   // Returns the translation that corresponds to the [key]
-  String text(String key) {
+  String text(String key, [String key2='']) {
     // Return the requested string
+    if (key2.length > 0) {
+      return (_localizedValues == null || _localizedValues[key] == null)
+        ? '** $key not found'
+        : _localizedValues[key][key2];
+    } else {
     return (_localizedValues == null || _localizedValues[key] == null)
         ? '** $key not found'
         : _localizedValues[key];
+      }
   }
 
   // Returns the current language code
